@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Airline Booking Form</title>
+    <style> 
+          *{
+              margin: 0;
+             padding: 0;
+            }
+             .background-image{background-image:url("https://media.istockphoto.com/photos/commercial-jet-flying-over-clouds-picture-id155380716?b=1&k=20&m=155380716&s=170667a&w=0&h=LjalFiyrKtBye-26dufNMHkbU_k_KrJ1-UYnbTpaxtM=");
+                 width:100%;
+                 height:100%;
+                 background-size:cover;
+                 
+              }
+           label{
+               width:300px;
+               margin:5px;
+               border-top:none;
+               border-left: none;    
+               border-right: none;
+               outline: none;
+               background: transparent;
+               color: #fff;}
+
+            form{          
+           height:500px;
+            width:700px;
+        
+            padding:20px;
+            opacity:0.7;
+            }
+            h3{
+                border-bottom: 2px solid #070402e5;
+                width:210px;
+                padding:5px;
+            }
+            #input #input-group{
+                width:300px;
+                margin:5px;
+                border-top:none;
+                border-left:none;
+                border-right:none;
+                outline:none;
+                background:transparent;
+                color:black;
+                 }
+          button{
+              padding:5px 10px;
+              border:none;
+              background-color:blue;
+              font-family: sans-serif;
+              font-weight:bold;
+              font-size:16px;
+
+          }
+   </style>
+    </head>
+    <body>
+       
+        <div class="background-image">
+            <h1 style="text-align:center">Rehuba Airline Booking Form</h1>
+            
+     <form><div id="input">
+        <h3>Booking Details</h3>
+         
+         <select id="input-group" style="background:white;">
+            <option value="value">From</option>
+            <option value="America">America</option>
+            <option value="Pack">Pakistan</option>
+            <option value="Switz">Switzerland</option>
+            <option value="Dubai">Dubai</option></select>
+         <select id="input-group" style="background:white;">
+            <option value="value">To</option>
+            <option value="Uk">UK</option>
+            <option value="USA">USA</option>
+            <option value="austria">Austria</option>
+            <option value="canada">Canada</option>
+        </select>
+         <select id="input-group" style="background:white;">
+            <option value="value">Preffered Airline</option>
+            <option value="Emirates">Emirates</option>
+            <option value="Air france">Air France</option>
+            <option value="Air China">Air China</option>
+            <option value="American Airlines">American Airlines</option>
+        </select>
+        <select id="input-group" style="background:white;">
+            <option value="value">Preffered Seating</option>
+            <option value="First class">First Class</option>
+            <option value="Business">Business</option>
+            <option value="premium">Premium economy</option>
+            <option value="Economy">Economy</option>
+            </select>
+            <br><label for="Adult">Adult(12+ yrs)</label>
+            <select id="adult">
+            <option value=""></option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+             <option value="23">23</option>
+            </select>
+             <label for="Children">Children(2-11 yrs)</label>
+         <select id="Children">
+            <option value=""></option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+             <option value="7">7</option>
+             <option value="8">8</option>
+             <option value="9">9</option>
+             <option value="10">10</option>
+             <option value="11">11</option>
+            </select>
+            <label for="Infant">Infant(under 2yrs)</label>
+            <select id="">
+               <option value=""></option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                </select>
+
+              <br><br>  <font size="3"color="blue"face="Arial">Select Your Fare </font>
+            
+            <input type="radio"name="radioButton"value="one">
+            <input type="text"id=""name=""placeholder="One Way">
+            
+            <input type="radio"name="radioButton"value="two">
+            <input type="Round-Trip"placeholder="Round-Trip">
+
+           <br><br> 
+           
+           <label for="checkin-date">Checkin-Date</label>
+             <input type="date"id=""name=""required>
+
+            <label for="checkout-date">Check-out-Date</label>
+            <input type="date"id=""name=""required>
+
+          <br><br>  <label for="msg">Message</label>
+         <textarea id="msg"name="Message"rows="1"cols="10"Placeholder="Message"></textarea>
+
+         <h3>Personal Details</h3>
+                        
+    
+        <br><br> <lablel for="name">Full Name:</lablel>
+        <input type="text"id="name"name="Full Name"Placeholder="FullName"required>
+                            
+            <lablel for="phone no">Phone Number:</lablel>
+           <input type="text"id="phone"name="phone no"Placeholder="Phone No"required>
+                        
+                        
+           <br><br> <lablel for="email">Email:</lablel>
+            <input type="text"id="mail"name="mail"Placeholder="E-mail"required>
+
+            <br><br><button type="submit" class="btn btn-warning text-white">Submit Form</button>
+           &nbsp; &nbsp; &nbsp; &nbsp; <button type="reset" class="btn btn-primary text-white">Clear Form</button>
+
+
+     </div>
+
+     </form>
+     </div>
+     </body>
+     </html>
+         
+        
+        
+        
+        
+       
